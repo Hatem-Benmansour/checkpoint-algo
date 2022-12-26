@@ -1,0 +1,30 @@
+ALGORITHM algorithm_name
+VAR
+                 w,v,i,ch:INTEGER
+                 arr : string
+
+BEGIN
+                 w:=1
+                 v:=0
+                 i:=0
+
+                 vow : = ["a","A","e","E","i","I","o","O","u","U","y","Y"]
+                 Read (arr)
+                 FOR i FROM 0 TO max arr.length step 1 DO
+                                  IF (str[i] :="" ) 
+                                  THEN
+                                  w++
+                                  IF (str[i]==vow)
+                                   THEN
+                                   v++
+                                                   set_instructions
+                                  END_IF
+                                                   set_instructions
+                                  END_IF
+                                                   set_instructions
+                                  END_IF
+                 END_FOR
+                 Write ("the number of charecter is ",i)
+                 Write ("the number of words is" , w)
+                 Write ("the number of vowels is", v)
+END
